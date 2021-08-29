@@ -1,0 +1,35 @@
+.address {
+  font-style: normal;
+}
+
+.address__link, .address__schedule {
+  color: #fff;
+}
+
+.address__link {
+  font-size: 26px;
+  line-height: 35px;
+  text-decoration: none;
+}
+
+.address__schedule {
+  position: relative;
+  cursor: pointer;
+}
+
+.address__schedule:hover +.address__desc{
+  display: block;
+}
+
+.address__desc {
+  display: none;
+  position: absolute;
+  background: url("../../img/square.png") center center /cover no-repeat;
+  height: 93px;
+  top: 25px;
+  right: 270px;
+}
+
+.address__desc-container {
+  padding: 19px;
+}

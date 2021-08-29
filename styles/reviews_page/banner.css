@@ -1,0 +1,28 @@
+.banner {
+  background: url(../../img/middleline.jpg) center center/ cover no-repeat;
+  min-height: 360px;
+}
+
+.banner__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner__title {
+  display: flex;
+  align-items: flex-end;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 65,37px;
+  color: #FFFFFF;
+  margin-right: 25px;
+  width: 595px;
+  height: 130px;
+}
+
+.banner__img {
+  margin-top: 21px;
+  width: 487px;
+  height: 341px;
+}

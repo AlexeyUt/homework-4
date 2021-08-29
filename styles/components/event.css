@@ -1,0 +1,42 @@
+.event {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% / 2 - 25px);
+  margin-bottom: 53px;
+}
+
+.event__content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 26px 30px ;
+  min-height: 140px;
+}
+
+.event__img {
+  object-fit: cover;
+}
+
+.event__date {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+  margin-bottom: 12px;
+}
+
+.event__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #FFFFFF;
+  margin-bottom: 4px;
+}
+
+.event__desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+}

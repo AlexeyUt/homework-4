@@ -1,0 +1,26 @@
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.breadcrumbs__item-link {
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #9A9A9A;
+}
+
+.breadcrumbs__item-link:after {
+  content: " / ";
+}
+
+.breadcrumbs__item-text {
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: #9A9A9A;
+}
+

@@ -1,0 +1,12 @@
+.reviews {
+  background: url(../../img/reviews-top.jpg) center center/ cover no-repeat;
+  min-height: 412px;
+}
+
+.reviews__title {
+  margin: 82px 0 114px 0;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 98px;
+  color: #FFFFFF;
+}

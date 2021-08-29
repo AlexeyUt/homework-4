@@ -1,0 +1,38 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #001821;
+  min-height: 133px;
+  font-style: normal;
+}
+
+.footer__content {
+  display: flex;
+  align-items: center;
+}
+
+.footer__content-align-right {
+  justify-content: flex-end;
+}
+
+.footer__address {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-address__geo {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  color: #9A9A9A;
+}
+
+.footer__address-phone {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 35px;
+  color: #FFFFFF;
+  text-decoration: none;
+}

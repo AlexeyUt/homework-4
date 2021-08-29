@@ -1,0 +1,85 @@
+.offer {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / 3 - 18px);
+  background-color: #fff;
+  border-radius: 5px 5px 5px 5px;
+  overflow: hidden;
+  min-height: 450px;
+  margin-bottom: 127px;
+}
+
+.offer__pic {
+  height: 144px;
+  margin-bottom: 33px;
+}
+
+.offer__img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.offer__content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding-left: 22px;
+  padding-right: 15px;
+}
+
+.offer__title {
+  font-style: 24px;
+  font-weight: 700;
+  margin-bottom: 22px;
+}
+
+.offer__features {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 23px;
+}
+
+.offer__feature {
+  margin-right: 28px;
+}
+
+
+.offer__feature-img {
+  width: auto;
+  margin-right: 10px;
+}
+
+.offer__feature-text {
+  color: #666666;
+  position: relative;
+  top: -6px;
+}
+
+.offer__desc {
+  font-size: 14px;
+  line-height: 21px;
+  color: #303030;
+  margin-bottom: 24px;
+}
+
+.offer__button {
+  margin-top: auto;
+  border: 1px solid #F5170E;
+  box-sizing: border-box;
+  border-radius: 35px;
+  padding: 18px 30px;
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #F5170E;
+  cursor: pointer;
+  transition: .3;
+}
+
+.offer__button:hover {
+  background-color: #F5170E;
+  color: #fff;
+}

@@ -1,0 +1,23 @@
+.news {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news__title {
+  line-height: 49px;
+  margin-bottom: 51px;
+}
+
+.news-list__item {
+  height: 354px;
+  vertical-align: top;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-right: 2%;
+  flex: 1;
+}
+
+.news-list__item:last-child {
+  margin-right: 0;
+}

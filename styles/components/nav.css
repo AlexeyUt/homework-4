@@ -1,0 +1,15 @@
+.nav__link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav__link:hover {
+  color: #DA0100;
+  cursor: pointer;
+  transition: .3;
+}
+
+.nav__item {
+  display: inline-block;
+  margin-right: 54px;
+}
